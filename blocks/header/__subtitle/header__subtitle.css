@@ -1,0 +1,8 @@
+.header__subtitle{
+    grid-area: subtitle;
+    text-align:  left;
+    hyphens: auto;
+    font-weight: 200;
+   
+   
+}

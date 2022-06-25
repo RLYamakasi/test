@@ -1,0 +1,19 @@
+.header{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 30px;
+    color: white;
+    display: grid;
+    height: 80px;
+    grid-template-areas: 
+    "title subtitle number"
+    "title subtitle mail";
+    grid-template-columns:3fr 4fr 2fr;
+}
+
+
+@media screen and (max-width:767px){
+    .header{
+        max-width: 500px;
+    }
+}

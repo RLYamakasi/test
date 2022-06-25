@@ -1,0 +1,6 @@
+.header__number{
+    text-decoration: underline;
+    grid-area: number;
+    margin: 0 0 5px;
+    align-self: end;
+}
